@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="canineDetails">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="canine" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:attribute name="breed" use="required" />
+                        <xs:attribute name="color" use="required" />
+                        <xs:attribute name="country" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

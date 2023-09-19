@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<canineDetails xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="canineDetails.xsd">
+    
+  <canine breed="Golden Retriever" color="Golden" country="United States"/>
+  <canine breed="German Shepherd" color="Black and Tan" country="Germany"/>
+  <canine breed="Poodle" color="White" country="France"/>
+  <canine breed="Bulldog" color="Brindle" country="United Kingdom"/>
+  <canine breed="Labrador Retriever" color="Yellow" country="Canada"/>
+</canineDetails>
